@@ -29,9 +29,9 @@ public class ShrugCommand {
         }
         else {
             playerList.broadcastChatMessage(
-                    PlayerChatMessage.unsigned(player.getUUID(), SHRUG),
+                    PlayerChatMessage.system(SHRUG),
                     player,
-                    ChatType.bind(ChatType.CHAT, player)
+                    ChatType.bind(ChatType.CHAT, context.getSource())
             );
         }
 
