@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[46,)"
+
+license="MIT"
+
+[[mods]]
+modId="shrugger"
+version="1.0.0.0"
+displayName="Shrugger"
+authors="Fleny"
+description='''
+    Shrug in chat
+    '''
+displayTest="MATCH_VERSION"
+
+[[dependencies.shrugger]]
+modId="forge"
+mandatory=true
+versionRange="[46,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.shrugger]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
